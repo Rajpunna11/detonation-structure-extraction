@@ -10,15 +10,6 @@ overlays them on common axes. All datasets are converted to SCHEME units
 regardless of the scheme each was analyzed with, so mixed runs compare
 cleanly.
 
-PRINCIPLE: every analysis that outputs a curve or distribution has an
-*_overlay function in detrz_extraction.plots taking a list of results
-objects (in-memory ExtractionResults and/or load_results() bundles):
-    plot_cdf_overlay                  - CDF of P(x)
-    plot_probability_overlay          - P(x) vs distance
-    plot_reaction_zone_width_overlay  - reaction-zone width distributions
-Per-dataset images (heatmap, coverage map, convergence) are diagnostics of
-a single run and live in that run's Stats/ folder instead.
-
 FIRST RUN: list the analysis folders to compare, then:
     uv run python run_compare.py
 """
