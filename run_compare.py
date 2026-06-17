@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """run_compare.py — compare results across previously analyzed datasets.
 
-Author: Raj Punna / Claude
+Author: Raj Punna 
 Date: June 2026
 
 Loads finished runs from their analysis folders (results.npz +
