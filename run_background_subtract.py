@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """run_background_subtract.py — standalone background subtraction.
 
-Author: Raj Punna / Claude
+Author: Raj Punna 
 Date: June 2026
 
 Subtracts the background frame (frame 001 by convention) from every frame in
