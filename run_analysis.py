@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """run_analysis.py — wavefront detection, alignment, and reaction zone analysis.
 
-Author: Raj Punna / Claude
+Author: Raj Punna
 Date: June 2026
-Port of reactionZone_v5.m.
+
 
 FIRST RUN: fill in the CONFIG variables and PHYSICAL parameters below
 (EXTRACT defaults are usually fine), then:  uv run python run_analysis.py
